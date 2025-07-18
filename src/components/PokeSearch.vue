@@ -3,7 +3,7 @@
     v-model="searchTerm"
     label="Buscar Pokémon"
     prepend-inner-icon="mdi-magnify"
-    @input="onInput"
+    @update:modelValue="onInput"
     variant="outlined"
     clearable
     hide-details
