@@ -5,7 +5,10 @@
       <h2>
         Explore os pokémons de todas as gerações com imagens e informações
         atualizadas.
+        <br>
+        (Clique em um card para ouvir o som do Pokémon.)
       </h2>
+
       <PokeSearch @search="updateSearch" style="margin-top: 20px" />
       <PokeFilterType @filter="updateFilterType" style="margin-top: 10px" />
     </div>
