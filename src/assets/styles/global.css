@@ -1,0 +1,33 @@
+/* src/assets/styles/global.css */
+@import './variables.css';
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+.headline {
+  font-family: 'Orbitron', sans-serif;
+}
+h1 {
+  color: var(--text-highlight);
+  font-size: 2.3rem;
+  margin-bottom: 0.1rem;
+}
+h2 {
+  color: var(--text-secondary);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+main {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,131 @@
+.poke-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.poke-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-surface);
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+}
+
+.poke-card:hover {
+    transform: translateY(-6px);
+}
+
+.img-wrapper {
+    background-color: var(--bg-card-image);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.poke-img {
+    width: 100%;
+    max-width: 120px;
+    object-fit: contain;
+}
+
+.info {
+    background-color: var(--bg-card-info);
+    padding: 0.75rem;
+}
+
+.info .v-card-title {
+    margin: 0 0 0.5rem;
+    color: var(--text-highlight);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.types {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.type-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-highlight);
+    text-transform: capitalize;
+}
+
+.type-badge.normal {
+    background-color: var(--type-normal);
+}
+
+.type-badge.fire {
+    background-color: var(--type-fire);
+}
+
+.type-badge.water {
+    background-color: var(--type-water);
+}
+
+.type-badge.electric {
+    background-color: var(--type-electric);
+}
+
+.type-badge.grass {
+    background-color: var(--type-grass);
+}
+
+.type-badge.ice {
+    background-color: var(--type-ice);
+}
+
+.type-badge.fighting {
+    background-color: var(--type-fighting);
+}
+
+.type-badge.poison {
+    background-color: var(--type-poison);
+}
+
+.type-badge.ground {
+    background-color: var(--type-ground);
+}
+
+.type-badge.flying {
+    background-color: var(--type-flying);
+}
+
+.type-badge.psychic {
+    background-color: var(--type-psychic);
+}
+
+.type-badge.bug {
+    background-color: var(--type-bug);
+}
+
+.type-badge.rock {
+    background-color: var(--type-rock);
+}
+
+.type-badge.ghost {
+    background-color: var(--type-ghost);
+}
+
+.type-badge.dragon {
+    background-color: var(--type-dragon);
+}
+
+.type-badge.dark {
+    background-color: var(--type-dark);
+}
+
+.type-badge.steel {
+    background-color: var(--type-steel);
+}
+
+.type-badge.fairy {
+    background-color: var(--type-fairy);
+}

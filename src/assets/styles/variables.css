@@ -1,0 +1,41 @@
+/* src/assets/styles/variables.css */
+:root {
+  /* FUNDOS */
+  --bg-main: #12121B;
+  --bg-surface: #1E1E29;
+  --bg-card: #262632;
+  --bg-card-image: #333341;
+  --bg-card-info: #2E2E3B;
+
+  --text-primary: #E0E0F0;
+  --text-secondary: #A0A0B2;
+  --text-highlight: #FFFFFF;
+
+  --accent-red: #FF4C4C;
+  --accent-blue: #4CC9F0;
+  --accent-green: #81C784;
+  --accent-fire: #FF8F00;
+  --accent-water: #42A5F5;
+  --accent-electric: #FFD54F;
+  --accent-psychic: #BA68C8;
+  --warn-yellow: #FFB300;
+
+  --type-normal: #A8A77A;
+  --type-fire: #EE8130;
+  --type-water: #6390F0;
+  --type-electric: #F7D02C;
+  --type-grass: #7AC74C;
+  --type-ice: #96D9D6;
+  --type-fighting: #C22E28;
+  --type-poison: #A33EA1;
+  --type-ground: #E2BF65;
+  --type-flying: #4796be;
+  --type-psychic: #F95587;
+  --type-bug: #A6B91A;
+  --type-rock: #B6A136;
+  --type-ghost: #735797;
+  --type-dragon: #6F35FC;
+  --type-dark: #705746;
+  --type-steel: #B7B7CE;
+  --type-fairy: #D685AD;
+}
